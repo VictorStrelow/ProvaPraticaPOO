@@ -1,7 +1,5 @@
 package com.provapoo.model;
 
-import com.provapoo.model.Sensor;
-
 public class SensorVibracao extends Sensor {
 
     public static final double VALOR_ESPERADO = 60.0;

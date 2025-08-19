@@ -1,7 +1,5 @@
 package com.provapoo.model;
 
-import com.provapoo.model.Sensor;
-
 public class SensorTemperatura extends Sensor {
 
     public static final double LIMITE_TEMPERATURA = 80.0;

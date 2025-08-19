@@ -63,9 +63,9 @@ public class InterfaceUsuario {
     }
 
     private void exibirMenu() {
-        System.out.println("\n=========================================");
+        System.out.println("\n===========================================");
         System.out.println(" Sistema de Monitoramento WEG - Versão 1.0");
-        System.out.println("=========================================\n");
+        System.out.println("===========================================\n");
         System.out.println("1 - Cadastrar Sensor");
         System.out.println("2 - Listar Sensores");
         System.out.println("3 - Registrar Medição");
@@ -187,7 +187,7 @@ public class InterfaceUsuario {
         int idx = 1;
         for (Medicao m : lista) {
             boolean alerta = s.verificarAlerta(m);
-            String suffix = alerta ? "ALERTA" : "";
+            String suffix = alerta ? " ALERTA" : "";
             System.out.printf("%d. Valor: %.3f | Data: %s%s%n", idx++, m.getValor(), m.getDataHora(), suffix);
         }
     }
